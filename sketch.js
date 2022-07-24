@@ -31,7 +31,7 @@ function preload()
     life12Img = loadImage("./Assets/./life/12.png");
     life13Img = loadImage("./Assets/./life/13.png");
     life14Img = loadImage("./Assets/./life/14.png");
-    life15Img = loadImage("./Assets/./life/15.png");
+    //life15Img = loadImage("./Assets/./life/15.png");
     life16Img = loadImage("./Assets/./life/16.png");
     life17Img = loadImage("./Assets/./life/17.png");
     life18Img = loadImage("./Assets/./life/18.png");
@@ -286,10 +286,10 @@ function setlife()
     {
         life.addImage(life14Img);
     }
-    if (score === 580)
-    {
-        life.addImage(life15Img);
-    }
+    //if (score === 580)
+    //{
+    //    life.addImage(life15Img);
+    //}
     if (score === 550)
     {
         life.addImage(life16Img);
